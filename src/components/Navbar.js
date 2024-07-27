@@ -17,6 +17,9 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/about">About</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/users">Users</Link>
+            </li>
             <li className="nav-item dropdown">
               <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
@@ -27,12 +30,11 @@ const Navbar = () => {
                 <li><hr className="dropdown-divider" /></li>
                 <li><Link className="dropdown-item" to="/">Something else here</Link></li>
               </ul>
-            <li className="nav-item"><Link className='nav-link' to="/users">Users</Link></li>
             </li>
           </ul>
           <form className="d-flex" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success" type="submit">Search</button>
+            <button className="btn btn-primary" type="submit">Search</button>
           </form>
         </div>
       </div>
