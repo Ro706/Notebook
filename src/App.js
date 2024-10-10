@@ -5,6 +5,7 @@ import Users from './components/Users';
 import Home from './components/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NoteState from './context/notes/NoteState'; // Correctly cased import
+import NoteState from './context/notes/NoteState';
 
 const App = () => {
   return (
